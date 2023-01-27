@@ -9,8 +9,10 @@ class Restaurant extends Model
 {
     use HasFactory;
 
+    protected $table = 'restaurants';
+
     protected $fillable = [];
-    
+
     protected static function newFactory()
     {
         return \Modules\Pos\Database\factories\RestaurantFactory::new();
