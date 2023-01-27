@@ -17,7 +17,7 @@ class FoodResource extends Resource
 {
     protected static ?string $model = Food::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationIcon = 'heroicon-o-gift';
 
     protected static function getNavigationGroup(): ?string
     {
@@ -48,14 +48,14 @@ class FoodResource extends Resource
                 Tables\Actions\DeleteBulkAction::make(),
             ]);
     }
-    
+
     public static function getRelations(): array
     {
         return [
             //
         ];
     }
-    
+
     public static function getPages(): array
     {
         return [
@@ -63,5 +63,5 @@ class FoodResource extends Resource
             'create' => Pages\CreateFood::route('/create'),
             'edit' => Pages\EditFood::route('/{record}/edit'),
         ];
-    }    
+    }
 }
