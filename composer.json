@@ -1,6 +1,7 @@
 {
     "name": "sorethea/pos-module",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Sorethea OK",
