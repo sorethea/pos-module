@@ -1,0 +1,25 @@
+{
+    "name": "sorethea/pos-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sorethea OK",
+            "email": "sorethea@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pos\\Providers\\PosServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pos\\": ""
+        }
+    }
+}
