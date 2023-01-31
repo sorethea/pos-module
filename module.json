@@ -1,6 +1,7 @@
 {
     "name": "Pos",
     "alias": "pos",
+    "class": "module",
     "description": "",
     "keywords": [],
     "priority": 0,
